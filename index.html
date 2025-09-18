@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohhamdi Oil Industries - Nizami Foods</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 md:flex md:justify-between md:items-center">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-bold text-blue-900">
+                    Mohhamdi Oil Industries
+                </a>
+            </div>
+            <!-- Mobile Menu Button (if needed, but for this design, we can simplify) -->
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <div class="relative overflow-hidden bg-cover bg-center h-96" style="background-image: url('https://placehold.co/1920x600/bbf7d0/16a34a?text=Nizami+Foods');">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <div class="text-center text-white p-6 rounded-lg bg-black bg-opacity-40">
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
+                        Nizami Foods
+                    </h1>
+                    <p class="text-xl md:text-2xl font-semibold">
+                        Pure Taste, Perfect Health.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products Section -->
+        <section id="products" class="container mx-auto px-6 py-12 md:py-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">Our Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card 1: Wheat Flour -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
+                    <img src="https://placehold.co/400x400/f0f9ff/0369a1?text=Nizami+Wheat+Flour" alt="Nizami Wheat Flour" class="w-full h-auto rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Nizami Wheat Flour</h3>
+                    <p class="text-gray-600 mb-4">Made from the finest quality wheat, our flour guarantees soft and fluffy chapatis every time.</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors">Learn More</a>
+                </div>
+
+                <!-- Product Card 2: Spices (Haldi) -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
+                    <img src="https://placehold.co/400x400/fff7ed/ea580c?text=Nizami+Haldi+Powder" alt="Nizami Haldi Powder" class="w-full h-auto rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Nizami Turmeric Powder</h3>
+                    <p class="text-gray-600 mb-4">100% pure and natural, our turmeric powder adds a vibrant color and healthy goodness to your food.</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors">Learn More</a>
+                </div>
+
+                <!-- Product Card 3: Spices (Dhania) -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
+                    <img src="https://placehold.co/400x400/ecfdf5/047857?text=Nizami+Dhania+Powder" alt="Nizami Dhania Powder" class="w-full h-auto rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Nizami Coriander Powder</h3>
+                    <p class="text-gray-600 mb-4">Known for its authentic aroma and taste, our coriander powder is an essential in every kitchen.</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="bg-blue-900 text-white py-12 md:py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About Mohhamdi Oil Industries</h2>
+                <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+                    Mohhamdi Oil Industries is a leader in producing high-quality edible oils and FMCG products. Our mission is to provide families with pure and healthy products under our trusted brand, Nizami Foods. We are committed to maintaining the highest standards of quality and purity from farm to table.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container mx-auto px-6 py-12 md:py-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Contact Us</h2>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-2xl shadow-lg">
+                <p class="text-center mb-6 text-gray-600">
+                    For business inquiries or feedback, please get in touch with us.
+                </p>
+                <form>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg border-2 border-gray-200 focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg border-2 border-gray-200 focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg border-2 border-gray-200 focus:outline-none focus:border-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-lg font-bold hover:bg-blue-700 transition-colors">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-auto">
+        <div class="container mx-auto text-center px-6">
+            <p>&copy; 2025 Mohhamdi Oil Industries. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
